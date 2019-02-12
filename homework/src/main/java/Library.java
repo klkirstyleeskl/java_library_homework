@@ -27,5 +27,9 @@ public class Library {
 
     }
 
+    public int getCurrentStock(){
+        return this.books.size();
+    }
+
 
 }

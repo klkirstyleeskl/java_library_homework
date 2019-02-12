@@ -36,5 +36,15 @@ public class LibraryTest {
         assertEquals(1, library.addBook(book1));
     }
 
+    @Test
+    public void canAddMoreThanOneBook(){
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book3);
+        assertEquals(3, library.getCurrentStock());
+    }
+
+    
+
 }
 
