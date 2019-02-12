@@ -21,5 +21,11 @@ public class Library {
         return this.books.size();
     }
 
+    public int addBook(Book book) {
+        this.books.add(book);
+        return this.books.size();
+
+    }
+
 
 }

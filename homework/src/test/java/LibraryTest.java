@@ -31,5 +31,10 @@ public class LibraryTest {
         assertEquals(0, library.getInitialStockValue());
     }
 
+    @Test
+    public void canAddBookToStock(){
+        assertEquals(1, library.addBook(book1));
+    }
+
 }
 
