@@ -12,9 +12,6 @@ public class BookTest {
     Book book6;
     Book book7;
     Book book8;
-    Book book9;
-    Book book10;
-
 
     @Before
     public void before() {
@@ -33,7 +30,19 @@ public class BookTest {
         assertEquals("Diary of an Oxygen Thief", book1.getTitle());
     }
 
-    
+    @Test
+    public void hasAuthor(){
+        assertEquals("Christopher Brookmyre", book2.getAuthor());
+    }
+
+    @Test
+    public void hasGenre(){
+        assertEquals("biography", book5.getGenre());
+    }
+
+
+
+
 
 
 }
