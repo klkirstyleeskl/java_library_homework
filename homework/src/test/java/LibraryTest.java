@@ -14,7 +14,6 @@ public class LibraryTest {
     Book book7;
     Book book8;
 
-
     @Before
     public void before(){
         library = new Library("Love to Read", 10);
@@ -44,7 +43,7 @@ public class LibraryTest {
         assertEquals(3, library.getCurrentStock());
     }
 
-    
+
 
 }
 
