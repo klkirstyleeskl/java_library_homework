@@ -21,11 +21,14 @@ public class LibraryTest {
 
     }
 
-
-
     @Test
     public void hasName(){
         assertEquals("Love to Read", library.getName());
+    }
+
+    @Test
+    public void stockStartsEmpty(){
+        assertEquals(0, library.getInitialStockValue());
     }
 
 }

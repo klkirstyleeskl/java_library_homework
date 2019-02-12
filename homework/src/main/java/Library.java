@@ -17,5 +17,9 @@ public class Library {
         return this.name;
     }
 
+    public int getInitialStockValue(){
+        return this.books.size();
+    }
+
 
 }
